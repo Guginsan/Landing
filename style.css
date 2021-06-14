@@ -1,0 +1,250 @@
+body
+{
+	margin: 0;
+}
+.menu
+{
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	opacity: 0.8;
+	width: 100%;
+}
+.menu a
+{
+	color: black;
+	text-decoration: none;
+	width: 100px;
+	display: inline-block;
+	font-weight: lighter;
+	height: 30px;
+}
+.menu a:hover
+{
+	background-color: #ccc;
+	border-radius: 5px;
+}
+.header
+{
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 200px 0;
+	background-image: 
+		url(images/polygons.png);
+	margin-top: 58px;
+	background-attachment: fixed;
+}
+.header a
+{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+.header a:hover
+{
+	background-color: #ccc;
+	border-radius: 5px;
+}
+.compani img
+{
+	width: 400px;
+	float: right;
+	margin: 30px;
+	margin-top: 0px;
+}
+.compani
+{
+	max-width: 1200px;
+	padding: 40px 0;
+	margin: 0 auto;
+}
+h2
+{
+	text-align: center;
+}
+.compani p
+{
+	text-align: justify;
+	margin-left: 5px;
+}
+.member
+{
+	display: inline-block;
+	width: 19%;
+	margin: 20px 10px;
+	border: 2px solid gray;
+	box-shadow: 0 2px 5px gray;
+	padding: 20px;
+	text-align: left;
+}
+.member img
+{
+	width: 100%;
+}
+.tim
+{
+	text-align: center;
+}
+.member h3
+{
+	font-weight: 400;
+	font-size: 20px;
+}
+.member .pos
+{
+	opacity: 0.6;
+}
+.member a
+{
+	display: inline-block;
+	width: 100%;
+	background-color: #055b73;
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 3px;
+}
+.pricing
+{
+	background-color: #696969;
+	text-align: center;
+	padding: 50px 0;
+}
+.pricing .p1
+{
+	color: white;
+}
+.pricing .p2
+{
+	color: white;
+}
+.tariff li
+{
+	list-style-type: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	padding: 16px 0; 
+}
+.tariff .tariffnaim
+{
+	color: white;
+	background-color: black;
+	font-size: 24px;
+	padding: 32px 0;
+}
+.tariff .best
+{
+	background-color: #055b73;
+	padding: 48px 0;
+}
+.tariff
+{
+	display: inline-block;
+	width: 30%;
+	min-width: 150px;
+	margin: 10px;
+	vertical-align: middle;
+	background-color: white;
+	padding: 0;
+}
+.tariff li:last-child
+{
+	background-color: #f1f1f1;
+	padding: 24px 0;
+}
+.tariff a
+{
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	padding: 12px 24px;
+}
+.tariff .price
+{
+	border: none;
+	font-weight: bold;
+}
+.tariff .period
+{
+	opacity: 0.4;
+}
+.tariff span
+{
+	font-weight: bold;
+}
+.fitback
+{
+	background-color: #f1f1f1;
+	padding: 50px 0;
+	text-align: center;
+
+}
+.fitback .contact-adres
+{
+	background-image: 
+		url(images/adress.png)
+}
+.fitback .contact-telefon
+{
+	background-image: 
+		url(images/phone.png)
+}
+.fitback .contact-email
+{
+	background-image: 
+		url(images/mail.png)
+}
+.fitback .contact-info
+{
+	text-align: left;
+	padding-left: 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-left: 5%; 
+}
+.fitback input
+{
+	display: block;
+	padding: 8px;
+	margin: 10px auto;
+	width: 90%;
+	outline: none;
+}
+.fitback form
+{
+	margin: 0 auto;
+}
+.fitback input[type=submit]
+{
+	display: inline-block;
+	width: auto;
+	border-radius: 8px;
+	background-color: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+.fitback input[type=submit]:hover
+{
+	background-color: white;
+	color: black;
+}
+.info
+{
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+.info p
+{
+	margin: 0; 
+}

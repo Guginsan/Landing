@@ -1,0 +1,46 @@
+@media(max-width: 600px)
+{
+	.menu
+	{
+		position: inherit;
+
+	}
+	.menu a
+	{
+		width: 100%;
+		padding: 20px 0;
+	}
+	.header
+	{
+		margin-top: 0;
+		padding: 100px 10px;
+		min-height: 325px;
+		background-width: 100%; 
+	}
+	.compani img
+	{
+		max-width: 280px;
+		float: none;
+	}
+	.compani p
+	{
+		max-width: 350px;
+		margin: 4px 30px;
+	}
+	.compani
+	{
+		text-align: none;
+	}
+	.tim .member
+	{
+		position: inherit;
+	}
+	.member
+	{
+		width: 70%;
+	}
+	.tariff
+	{
+		width: 60%;
+	}
+}
